@@ -12,7 +12,7 @@
     background-position: center;
     box-shadow: 0px 20px 15px #D4CCB6;
     border-radius: 15px;
-}
+};
 
 .homeTitulo{
     font-style: italic;
@@ -25,13 +25,13 @@
 
 /* RESPONSIVE */
 @media(max-width:425px){
-    .homeEncabezado{
+    .contenedorEncabezado{
         max-width: 100%;
         max-height: 25vh;
         padding-top: 10vh;
     }
 
-    .homeEncabezado>h2{
+    .homeTitulo{
         font-size: 4rem;
     }
 }
