@@ -3,7 +3,7 @@
     margin-top: 3vh;
     padding-top: 25vh;
     padding-bottom: 25vh;
-    background-image: url('../src/assets/recursos/imagenes/encabezadoImg.jpg');
+    background-image: url('../../assets/recursos/imagenes/encabezadoImg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
