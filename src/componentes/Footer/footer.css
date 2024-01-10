@@ -1,0 +1,19 @@
+.footer{
+    background-color: black;
+    height: 8vh;
+    padding: 1vw;
+    color: #FAF9F3;
+}
+.footer>h5>a{
+    color: #FAF9F3;
+
+}
+
+/* RESPONSIVE */
+@media(max-width: 425px){
+    .footer>h5{
+        font-size: 0.9rem;
+    
+    }
+}
+

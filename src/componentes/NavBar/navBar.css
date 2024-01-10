@@ -1,0 +1,41 @@
+.navBar{
+    background-color: #D8C49C;
+    max-width: 100vw!important;
+}
+.navBarLogo{
+    max-width: 5vw;
+    filter: drop-shadow(2px 2px 4px black);
+}
+
+.navBarMenu{
+    font-size: 1.2rem;
+}
+.navBarMenu > li > a{
+    color: #000;
+}
+
+.navBarMenu>li>a:hover{
+color: #000;
+border-bottom: 3px solid #A69c86;
+margin-bottom: -3px;
+transition: all 0s;
+
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px){
+    .navBarLogo{
+        max-width: 10vw;
+    }
+
+    .navBarMenu{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media(max-width: 425px){
+    .navBarLogo{
+        max-width: 15vw;
+    }
+}

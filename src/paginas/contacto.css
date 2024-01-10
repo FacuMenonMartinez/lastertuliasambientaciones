@@ -1,0 +1,56 @@
+.contactoSeccion{
+   min-height: 100vh;
+   max-width: 100vw;
+   overflow: hidden;
+}
+
+
+.contactoInstagram, .contactoEmail{
+    max-width: 15%;
+}
+
+.enlaceInstagram::after{
+    content: '@lastertuliasambientaciones';
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.direccionEmail{
+    font-size: 1.5rem;
+}
+
+.imagenContacto{
+    max-width: 47vw;
+}
+
+
+.contactoMapa{
+    margin-top: 5vh;
+}
+.mapa{
+    width: 98vw;
+    padding-right: 2vh;
+}
+/* RESPONSIVE */
+@media(max-width:375px){
+    .contactoRedes{
+        margin-top: 2vh;
+    }
+    .enlaceInstagram::after{
+        font-size: 1rem;
+    }
+
+    .direccionEmail{
+        font-size: 1rem;
+    }
+
+    .contactoMapa>h3{
+        font-size: 1.1rem;
+    }
+    
+}
+@media(min-width:768px){
+    .contactoRedes{
+        max-width: 47vw;
+    }
+}

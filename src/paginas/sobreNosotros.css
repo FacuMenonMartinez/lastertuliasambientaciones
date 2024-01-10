@@ -1,0 +1,80 @@
+.sobreNosotrosEncabezado{
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+}
+
+.sobreNosotrosEncabezado>img{
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px #ACACA4;
+}
+
+.sobreNosotrosTitulo{
+    text-align: center;
+    margin-bottom: 3vh;
+    color:#A69C86;
+    font-weight: 600;
+    font-size: 3rem;
+    text-shadow: 0px 10px 20px grey;
+}
+
+.sobreNosotrosTexto{
+    max-width: 95%;
+    font-size: 1.5rem;
+    padding: 2vw;
+}
+.accordion-body, .accordion-button{
+    font-size: 1.5rem!important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black!important;
+    background-color: #D8C49C!important;
+    box-shadow: 0px 10px 10px #ACACA4;
+}
+
+.accordion-button:focus{
+    border: none!important;
+    box-shadow: none!important;
+
+}
+
+@media(max-width:768px){
+    .sobreNosotrosEncabezado{
+        flex-direction: column;
+    }
+
+    .sobreNosotrosTitulo{
+        margin-top: 3vh;
+        font-size: 3rem;
+    }
+
+    .sobreNosotrosTexto{
+        font-size: 2rem;
+        padding: 1vw;
+        text-align: justify;
+    }
+    .acordionContenedor{
+        max-width: 100vw;
+        overflow: hidden;
+    }
+    .accordion-body, .accordion-button{
+        font-size: 1.5rem!important;
+    }
+}
+
+@media(max-width:425px){
+    .sobreNosotrosEncabezado>img{
+        border-radius: 10px;
+        box-shadow: 0px 10px 10px #ACACA4;
+        max-width: 95%;
+        margin: auto;
+    }
+    .sobreNosotrosTitulo{
+        max-width: 95%;
+        font-size: 2rem;
+    }
+    .sobreNosotrosTexto{
+        font-size: 1.5rem;
+    }
+}
