@@ -1,10 +1,10 @@
-import sobreNosotros from "../../assets/recursos/imagenes/sobreNosotros.jpg";
+import sobreNosotrosImg from "../../assets/recursos/imagenes/sobreNosotros.jpg";
 import "./sobreNosotros.css";
 function SobreNosotros() {
   return (
     <section className="container m-0 p-0">
       <article className="sobreNosotrosEncabezado">
-        <img src={sobreNosotros} />
+        <img src={sobreNosotrosImg} />
         <div className="">
           <h1 className="sobreNosotrosTitulo">Las tertulias ambientaciones</h1>
           <p className="sobreNosotrosTexto">
