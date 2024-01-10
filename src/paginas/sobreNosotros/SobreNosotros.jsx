@@ -5,7 +5,7 @@ function SobreNosotros() {
     <section className="container m-0 p-0">
       <article className="sobreNosotrosEncabezado">
         <img src={sobreNosotrosImg} />
-        <div className="">
+        <div>
           <h1 className="sobreNosotrosTitulo">Las tertulias ambientaciones</h1>
           <p className="sobreNosotrosTexto">
             ¡Hola! Somos <b>Mara & Isa.</b>
