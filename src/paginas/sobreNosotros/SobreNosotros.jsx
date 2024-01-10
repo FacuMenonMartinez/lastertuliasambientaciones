@@ -28,7 +28,7 @@ function SobreNosotros() {
         </div>
       </article>
       <h3 className="ps-4 fs-2">Preguntas frecuentes</h3>
-      <div className="">
+      <div>
         <div
           className="accordion accordion-flush z-2 acordionContenedor "
           id="accordionFlushExample"
