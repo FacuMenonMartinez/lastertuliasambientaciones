@@ -1,4 +1,4 @@
-import sobreNosotros from "../assets/recursos/imagenes/sobreNosotros.jpg";
+import sobreNosotros from "../../assets/recursos/imagenes/sobreNosotros.jpg";
 import "./sobreNosotros.css";
 function SobreNosotros() {
   return (

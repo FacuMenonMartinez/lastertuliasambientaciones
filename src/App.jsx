@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./paginas/Home.jsx"
-import SobreNosotros from "./paginas/SobreNosotros.jsx"
-import Contacto from "./paginas/Contacto.jsx"
-import Layout from "./paginas/Layout.jsx";
+import Home from "./paginas/home/Home.jsx"
+import SobreNosotros from "./paginas/sobreNosotros/SobreNosotros.jsx"
+import Contacto from "./paginas/Contacto/Contacto.jsx"
+import Layout from "./paginas/Layout/Layout.jsx";
 
 import "./app.css";
 

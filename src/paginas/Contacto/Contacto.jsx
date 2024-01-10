@@ -1,6 +1,6 @@
-import logoInstagram from "../assets/recursos/imagenes/logoInstagram.png";
-import logoGmail from "../assets/recursos/imagenes/logoGmail.png";
-import logoTertulias from "../assets/recursos/imagenes/tertuliasLogo.png"
+import logoInstagram from "../../assets/recursos/imagenes/logoInstagram.png";
+import logoGmail from "../../assets/recursos/imagenes/logoGmail.png";
+import logoTertulias from "../../assets/recursos/imagenes/tertuliasLogo.png"
 import "./contacto.css";
 
 function Contacto() {

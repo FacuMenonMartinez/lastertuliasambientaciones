@@ -1,4 +1,4 @@
-import ContenedorTarjetas from "../componentes/ContenedorTarjetas/ContenedorTarjetas";
+import ContenedorTarjetas from "../../componentes/ContenedorTarjetas/ContenedorTarjetas";
 import "./home.css";
 
 function Home() {
